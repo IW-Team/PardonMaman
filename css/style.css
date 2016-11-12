@@ -103,7 +103,7 @@ Table Of Contents
 }
 
 .section-header h2 span {
-    color: #0181EC;
+    color: #E53935;
 }
 
 .section-header samp.line {
@@ -4375,6 +4375,10 @@ span.credits {
     font-weight: 400;
 }
 
+.vcenter{
+    display: inline-block;
+    vertical-align: middle;
+}
 
 
 
