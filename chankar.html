@@ -1,14 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-<meta name="description" content="Web Agency HTML Template">
-<meta name="keywords" content="Webagency">
-<meta name="author" content="RKWebdesigns">
+<meta name="description" content="Page tatoueur Chankar">
 
-<title>Web Agency HTML Template</title>
+<title>Tattoo by Chankar</title>
 <!-- Fav Icons   -->
 <link rel="icon" href="images/favicon.png">
 <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
@@ -21,6 +19,7 @@
 <link href="css/style.css" rel="stylesheet">
 <!-- responsive stylesheet -->
 <link rel="stylesheet" href="css/responsive.css">
+<link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
 
 </head>
 
@@ -70,8 +69,8 @@
                   <li class="active"><a href="#">Accueil</a></li>
                   <li><a href="#" class="has-submenu">Tattoo</a>
                     <ul class="sub-menu">
-                      <li><a href="themes.html">Tattoos by Ben</a></li>
-                      <li><a href="themes.html">Tattoos by Chankar</a></li>
+                      <li><a href="ben.html">Tattoos by Ben</a></li>
+                      <li><a href="chankar.html">Tattoos by Chankar</a></li>
                       <li><a href="themes.html">Tattoos by David</a></li>
                       <li><a href="themes.html">Tattoos by Jibé</a></li>
                       <li><a href="themes.html">Tattoos by John Stone</a></li>
@@ -102,9 +101,65 @@
           <style>
             #p1{ color:black; margin-top: 30px; }
             .Profil{ margin-top:75px; }
-            .chankarProfil{ width:350px; height:300px; border-radius:30px; float:left; }
+            .chankarProfil{ width:320px; height:320px; float:left; }
+            @media screen and (max-width: 985px) {
+                .chankarProfil {
+                    margin-left:55%;
+                    float:none;
+
+                }
+            }
+            @media screen and (max-width: 715px) {
+                .chankarProfil {
+                    float:left;
+                    margin-left: auto;
+                    margin-right:auto;
+                }
+            }
             .page-header { margin-top: 75px; }
 
+            @media screen and (max-width: 1000px) {
+                #txtProf {
+                    margin-top: 50px;
+                }
+            }
+
+            .purchase-now{
+              background-color: #000;
+            }
+            #btnSnat{ margin-top:20px; }
+            ul li.active a.btnTattoo { background-color: #E53935; }
+            ul li a.btnTattoo:hover { background-color: #E53935; }
+            .clients-section .owl-pagination .owl-page.active span {
+              background: #E53935 none repeat scroll 0 0;
+              opacity: 1;
+            }
+            .imgItem { width:150px; height:150px; }
+            .pad { margin-top: -150px; }
+            #titleContact { font-family: 'Great Vibes', cursive; color:#000; font-size:45px; }
+
+            @media screen and (max-width: 479px) {
+                .h-bold{
+                  text-align: center;
+                }
+                .section-header span.line{
+
+                }
+            }
+            @media screen and (max-width: 990px) {
+                .footer-about-widget{
+                  margin-left:8%;
+                  margin-right:8%;
+                  margin-top:5%;
+                }
+            }
+            @media screen and (max-width: 740px) {
+                .footer-about-widget{
+                  margin-left:3%;
+                  margin-right:3%;
+                  margin-top:5%;
+                }
+            }
           </style>
 
 
@@ -116,25 +171,24 @@
         <div class="container">
 
           <header class="page-header section-header text-center">
-            <h1 class="h-bold">Tatoueur <span>Chankar</span></h1>
-            <span class="line text-center"></span>
+            <h1 class="h-bold">Tattoos by <span>Chankar</span></h1>
+            <span class="line"></span>
           </header>
 
           <div class="Profil">
-            <div class="col-lg-4 col-xs-12">
-                <img src="images/chankar/chankar.png" alt="Photo profil Chankar" class="chankarProfil">
+            <div class="col-lg-4 col-md-6 col-xs-6">
+                <img src="images/chankar/smallSize/chankraRoung.png" alt="Photo profil Chankar" class="chankarProfil">
             </div>
 
-            <div class="col-lg-8 col-xs-12">
+            <div id="txtProf" class="col-lg-8 col-md-6 col-xs-12">
               <h2>Chankar</h2> <br>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa porro sint temporibus. Animi consequatur culpa cupiditate eaque eligendi facilis, fugit in labore porro vitae! Laboriosam maxime omnis praesentium quibusdam rerum!</p>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa porro sint temporibus. Animi consequatur culpa cupiditate eaque eligendi facilis, fugit in labore porro vitae! Laboriosam maxime omnis praesentium quibusdam rerum!</p>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa porro sint temporibus. Animi consequatur culpa cupiditate eaque eligendi facilis, fugit in labore porro vitae! Laboriosam maxime omnis praesentium quibusdam rerum!</p>
             </div>
           </div>
 
-
         </div>
+
 
         <!-- Main Section Start Here -->
         <div id="main">
@@ -144,19 +198,19 @@
               <div class="container">
                   <div class="item-filter m-t-20">
                     <ul class="list-unstyled font-header font-12 clearfix">
-                      <li class="active"><a href="#" data-filter="*" data-toggle="tab">All</a></li>
-                      <li><a href="#" data-filter=".wordpress" data-toggle="tab">Type Tatoo 1</a></li>
-                      <li><a href="#" data-filter=".html" data-toggle="tab">Type Tatoo 2</a></li>
-                      <li><a href="#" data-filter=".joomla" data-toggle="tab">Type Tatoo 3</a></li>
-                      <li><a href="#" data-filter=".megento" data-toggle="tab">Type Tatoo 4</a></li>
-                      <li><a href="#" data-filter=".free" data-toggle="tab">Type Tatoo 5</a></li>
+                      <li class="active"><a class="btnTattoo" href="#" data-filter="*" data-toggle="tab">TOUS</a></li>
+                      <li><a class="btnTattoo" href="#" data-filter=".wordpress" data-toggle="tab">Type Tattoo 1</a></li>
+                      <li><a class="btnTattoo" href="#" data-filter=".html" data-toggle="tab">Type Tattoo 2</a></li>
+                      <li><a class="btnTattoo" href="#" data-filter=".joomla" data-toggle="tab">Type Tattoo 3</a></li>
+                      <li><a class="btnTattoo" href="#" data-filter=".megento" data-toggle="tab">Type Tattoo 4</a></li>
+                      <li><a class="btnTattoo" href="#" data-filter=".free" data-toggle="tab">Type Tattoo 5</a></li>
                     </ul>
                   </div>
                   <div class="row">
                     <div class="themes-group has-padding grid-three clearfix">
                       <div class="themes-item html">
                         <a href="theme-details.html" class="themes-inner animsition-link">
-                          <img src="images/chankar/chankarTattoo1.png" class="img-responsive" alt="themes">
+                          <img src="images/chankar/smallSize/chankarTattoo1.png" class="img-responsive" alt="tatouage">
                           
                          <div class="themes-overlay">
                             <div class="border">
@@ -170,7 +224,7 @@
                       </div>
                       <div class="themes-item wordpress">
                         <a href="theme-details.html" class="themes-inner animsition-link">
-                          <img src="images/chankar/chankarTattoo2.png" class="img-responsive" alt="themes">
+                          <img src="images/chankar/smallSize/chankarTattoo2.png" class="img-responsive" alt="tatouage">
 
                           <div class="themes-overlay">
                             <div class="border">
@@ -184,7 +238,7 @@
                       </div>
                       <div class="themes-item megento">
                         <a href="theme-details.html" class="themes-inner animsition-link">
-                          <img src="images/chankar/chankarTattoo3.png" class="img-responsive" alt="themes">
+                          <img src="images/chankar/smallSize/chankarTattoo3.png" class="img-responsive" alt="tatouage">
 
                           <div class="themes-overlay">
                             <div class="border">
@@ -198,7 +252,7 @@
                       </div>
                       <div class="themes-item free">
                         <a href="theme-details.html" class="themes-inner animsition-link">
-                          <img src="images/chankar/chankarTattoo4.png" class="img-responsive" alt="themes">
+                          <img src="images/chankar/smallSize/chankarTattoo4.png" class="img-responsive" alt="tatouage">
 
                           <div class="themes-overlay">
                             <div class="border">
@@ -212,7 +266,7 @@
                       </div>
                       <div class="themes-item joomla">
                         <a href="theme-details.html" class="themes-inner animsition-link">
-                          <img src="images/chankar/chankarTattoo5.png" class="img-responsive" alt="themes">
+                          <img src="images/chankar/smallSize/chankarTattoo5.png" class="img-responsive" alt="tatouage">
                           <div class="themes-overlay">
                             <div class="border">
                               <div class="content-group">
@@ -225,7 +279,7 @@
                       </div>
                       <div class="themes-item wordpress">
                         <a href="theme-details.html" class="themes-inner animsition-link">
-                          <img src="images/chankar/chankarTattoo6.png" class="img-responsive" alt="themes">
+                          <img src="images/chankar/smallSize/chankarTattoo6.png" class="img-responsive" alt="tatouage">
                           <div class="themes-overlay">
                             <div class="border">
                               <div class="content-group">
@@ -245,6 +299,8 @@
         </div>
         <!-- Main Section End Here -->
 
+        <div class="pad"></div>
+
         <!-- Satisfied Clients Section Start Here-->
         <section class="clients-section section-padding">
           <div class="container">
@@ -253,31 +309,31 @@
                 <header class="page-header section-header text-center">
                   <h1 class="h-bold">Clients <span>Satisfaits</span></h1>
                   <span class="line text-center"></span>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis deleniti dolor et laboriosam magnam rerum. Aliquid at inventore laudantium natus, nobis odit perferendis quaerat similique soluta, suscipit tempora unde ut?</p>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis deleniti dolor et laboriosam magnam rerum.<br>Aliquid at inventore laudantium natus</p>
                 </header>
               </div>
               <div class="col-md-12">
                 <ul id="logo" class="owl-carousel owl-theme">
-                    <li class="item">
-                      <img src="images/clients/logo-1.png" alt="" class="img-responsive">
+                    <li class="imgItem">
+                      <img src="images/clients/client3.png" alt="client 1" class="img-circle">
                     </li>
-                    <li class="item">
-                      <img src="images/clients/logo-3.png" alt="" class="img-responsive">
+                    <li class="imgItem">
+                      <img src="images/clients/client5.png" alt="client 2" class="img-circle">
                     </li>
-                    <li class="item">
-                      <img src="images/clients/logo-4.png" alt="" class="img-responsive">
+                    <li class="imgItem">
+                      <img src="images/clients/client3.png" alt="client 3" class="img-circle">
                     </li>
-                    <li class="item">
-                      <img src="images/clients/logo-5.png" alt="" class="img-responsive">
+                    <li class="imgItem">
+                      <img src="images/clients/client4.png" alt="client 4" class="img-circle">
                     </li>
-                    <li class="item">
-                      <img src="images/clients/logo-6.png" alt="" class="img-responsive">
+                    <li class="imgItem">
+                      <img src="images/clients/client5.png" alt="client 5" class="img-circle">
                     </li>
-                    <li class="item">
-                      <img src="images/clients/logo-4.png" alt="" class="img-responsive">
+                    <li class="imgItem">
+                      <img src="images/clients/client6.png" alt="client 6" class="img-circle">
                     </li>
-                    <li class="item">
-                      <img src="images/clients/logo-3.png" alt="" class="img-responsive">
+                    <li class="imgItem">
+                      <img src="images/clients/client4.png" alt="client 7" class="img-circle">
                     </li>
                 </ul>
               </div>
@@ -292,10 +348,10 @@
               <div class="row">
                 <div class="content">
                   <div class="col-md-9 col-sm-8 text-left"> 
-                    <h2>Web Agency HTML Template. <strong>Buy this theme.</strong></h2> 
+                    <h2>Pardon Maman est enregistré au <strong>syndicat national des artistes tatoueurs</strong></h2>
                   </div>
-                  <div class="col-md-3 col-sm-4 text-right"> 
-                    <a href="#" class="btn btn-theme theme-yellow">Purchase Now</a>
+                  <div class="col-md-3 col-sm-4 text-right">
+                    <a href="http://www.s-n-a-t.org/" class="btn btn-theme theme-yellow" id="btnSnat">SNAT</a>
                   </div>
                 </div>
               </div>
@@ -304,126 +360,62 @@
         <!-- purchase now end Here -->
 
       <!-- Footer Section Start Here -->
-      <footer id="footer">
-          <section class="footer-section-top">
-            <div class="section-padding">
-              <div class="container">
-                <div class="row">
-                  <div class="col-md-8 col-sm-6 foot-widget ">
-                    <div class="newsletter-widget">
-                      <!-- MESSAGES -->
-                        <p class="subscription-success"></p>
-                        <p class="subscription-error"></p>
-                      <form class="mailchimp">
-                        <div class="form-group">
-                          <input type="email" id="subscriber-email" name="email" placeholder="Enter Your Email Address"/>
-                          <button class="btn btn-theme theme-yellow" type="submit">Subscribe Now</button>
-                        </div>
-                      </form>
-                    </div>
-                  </div>
-                  <div class="col-md-4 col-sm-6">
-                    <h3>Follow Us</h3>
-                    <ul class="social-footer">
-                      <li><a href=""><i class="fa fa-twitter"></i></a></li>
-                      <li><a href=""><i class="fa fa-google-plus"></i></a></li>
-                      <li><a href=""><i class="fa fa-linkedin"></i></a></li>
-                      <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                      <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
-          <section class="footer-section-mid">
-            <div class="section-padding">
-                <div class="container">
-                  <div class="row">
-                  <div class="footer-mid">
-                    <!-- About Widget -->
-                    <div class="footer-widget footer-about-widget col-md-3 col-sm-6 col-xs-12">
-                      <h3 class="footer-widget-header">Quick Contact Info</h3>
-                      <span class="line text-center"></span>
-                      <div class="company-address">
-                        <ul>
-                          <li><i class="fa fa-map-marker"></i>325 New Road, PKR</li>
-                          <li><i class="fa fa-phone"></i>+977-9849497627</li>
-                          <li><i class="fa fa-envelope-o"></i>example@gmail.com</li>
-                        </ul>
+          <!-- Footer Section Start Here -->
+          <footer id="footer">
+              <section class="footer-section-mid">
+                  <div class="section-padding">
+                      <div class="container">
+                          <div class="row">
+                              <div class="footer-mid">
+                                  <header class="page-header section-header text-center" style="margin-bottom: 50px">
+                                      <h1 class="h-bold">Nous  <span>trouver ?</span></h1>
+                                      <span class="line text-center"></span>
+                                  </header>
+
+
+
+                                  <!-- Link Widget -->
+                                  <div class="footer-widget footer-link-widget col-md-6 col-sm-12 col-xs-12" style="text-align: center">
+                                      <h2 id="titleContact" style="margin-bottom: 20px">Pardon Maman</h2>
+                                      <p style="margin-bottom: 20px">
+                                          2 Boulevard du Général Gallieni
+                                          <br>
+                                          94360  Bry sur Marne
+                                      </p>
+                                      <p>
+                                          – Le salon est ouvert du mardi au samedi, de 11h à 19h sans interruption –
+                                      </p>
+                                      <p>
+                                          BUS 120 & 210 – arrêt « Le château »
+                                          RER A – arrêt « Bry sur Marne » (direction Marne la Vallée)
+
+                                          N ‘hésitez pas à nous appeler pour tout renseignement au 09 52 95 67 55
+                                      </p>
+                                  </div>
+                                  <!-- Link Widget End -->
+
+                                  <!-- About Widget -->
+                                  <div class="footer-widget footer-about-widget col-md-6 col-sm-12 col-xs-12">
+                                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2625.9847812514113!2d2.5204779156736987!3d48.839428979285636!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e60d932f702601%3A0xf74517d74d575546!2s2+Boulevard+du+G%C3%A9n%C3%A9ral+Gallieni%2C+94360+Bry-sur-Marne!5e0!3m2!1sfr!2sfr!4v1478268861970" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                                  </div>
+                                  <!-- About Widget End -->
+
+                              </div>
+                              <!-- FOOTER TOP END -->
+                          </div>
                       </div>
-                    </div>
-                    <!-- About Widget End -->
-
-                    <!-- Link Widget -->
-                    <div class="footer-widget footer-link-widget col-md-3 col-sm-6 col-xs-12">
-                      <h3 class="footer-widget-header">Quick Links</h3>
-                      <span class="line text-center"></span>
-                      <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="services.html">Services</a></li>
-                        <li><a href="#">Corporate Culture</a></li>
-                        <li><a href="#">Portfolio</a></li>
-                        <li><a href="#">Client Management</a></li>
-                      </ul>
-                    </div>
-                    <!-- Link Widget End -->
-
-                    <!-- About Link Widget -->
-                    <div class="footer-widget about-link-widget col-md-3 col-sm-6 col-xs-12">
-                      <h3 class="footer-widget-header">About Office</h3>
-                      <span class="line text-center"></span>
-                      <ul>
-                        <li><a href="about.html">About History</a></li>
-                        <li><a href="#">Company Philosophy</a></li>
-                        <li><a href="#">Corporate Profile</a></li>
-                        <li><a href="faq.html">Faq's</a></li>
-                        <li><a href="privacy.html">Privacy Policy</a></li>
-                      </ul>
-                    </div>
-                    <!-- About Link Widget End -->
-
-                    <!-- Flickr Widget -->
-                    <div class="footer-widget flickr-widget col-md-3 col-sm-6 col-xs-12">
-                      <h3 class="footer-widget-header">Flickr Photo</h3>
-                      <span class="line text-center"></span>
-                      <div id="flickr-gallery">
-                        <ul>
-                          <li><a title="" href="#" class="flickr-gallery-img"><img alt="" src="images/fliker/1.jpg"></a></li>
-                          <li><a title="" href="#" class="flickr-gallery-img"><img alt="" src="images/fliker/2.jpg"></a></li>
-                          <li><a title="" href="#" class="flickr-gallery-img"><img alt="" src="images/fliker/3.jpg"></a></li>
-                          <li><a title="" href="#" class="flickr-gallery-img"><img alt="" src="images/fliker/4.jpg"></a></li>
-                          <li><a title="" href="#" class="flickr-gallery-img"><img alt="" src="images/fliker/5.jpg"></a></li>
-                          <li><a title="" href="#" class="flickr-gallery-img"><img alt="" src="images/fliker/6.jpg"></a></li>
-                        </ul>
-                      </div>
-                    </div>
-                    <!-- Flickr Widget End -->
                   </div>
-                  <!-- FOOTER TOP END -->
-                </div>
-              </div>
-            </div>
-          </section>
-          <section class="footer-section-bottom">
-            <div class="container">
-              <div class="row">
-                <div class="col-md-8 col-sm-6">
-                  <p class="copyright ">Copyright © All rights reserved</p>
-                </div>
-                <div class="col-md-4 col-sm-6">
-                  <h3>We Accept</h3>
-                  <ul class="we-accept">
-                    <li><a href=""><i class="fa fa-cc-paypal"></i></a></li>
-                    <li><a href=""><i class="fa fa-cc-visa"></i></a></li>
-                    <li><a href=""><i class="fa fa-cc-stripe"></i></a></li>
-                    <li><a href="#"><i class="fa fa-cc-mastercard"></i></a></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </section>
-      </footer>
+              </section>
+              <section class="footer-section-bottom">
+                  <div class="container">
+                      <div class="row">
+                          <div class="">
+                              <p class="copyright ">Pardon Maman - Copyright © TOUS DROITS RESERVÉS</p>
+                          </div>
+                      </div>
+                  </div>
+              </section>
+          </footer>
       <!-- End footer -->
         <a class="scroll-top fa fa-angle-up" href="javascript:void(0)"></a>
       </div>
@@ -486,5 +478,6 @@
   <script src="js/nanoscroll.js"></script>
   <script src="js/wow.min.js"></script>
   <script src="js/script.js"></script>
+
 </body>
 </html>
