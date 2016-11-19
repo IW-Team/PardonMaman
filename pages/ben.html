@@ -11,6 +11,7 @@
   <!-- Bootstrap -->
   <link href="../styles/css/bootstrap.min.css" rel="stylesheet">
   <link href="../styles/css/animate.min.css" rel="stylesheet">
+  <link href="../styles/css/magnific-popup.css" rel="stylesheet">
   <!-- Main CSS -->
   <link href="../styles/css/app.css" rel="stylesheet">
 
@@ -190,7 +191,7 @@
                 <div class="themes-group has-padding grid-three clearfix">
                   <div class="themes-item jambes">
                     <a href="#" class="themes-inner animsition-link">
-                      <img src="../images/ben/Jambe1.jpg" title="jambe maori" alt="jambe maori" class="img-responsive" alt="themes">
+                      <img src="../images/ben/Jambe1.jpg" title="jambe maori" alt="jambe maori" class="img-responsive">
                       <div class="themes-overlay">
                         <div class="border">
                           <div class="content-group">
@@ -203,7 +204,7 @@
                   </div>
                   <div class="themes-item jambes">
                     <a href="#" class="themes-inner animsition-link">
-                      <img src="../images/ben/jambe2.jpg" title="jambe maori" alt="jambe maori" class="img-responsive" alt="themes">
+                      <img src="../images/ben/jambe2.jpg" title="jambe maori" alt="jambe maori" class="img-responsive">
                       <div class="themes-overlay">
                         <div class="border">
                           <div class="content-group">
@@ -258,7 +259,7 @@
                   </div>
                   <div class="themes-item dos">
                     <a href="#" class="themes-inner animsition-link">
-                      <img src="../images/ben/dos2.jpg" alt="dos loup" title="dos loup" class="img-responsive" alt="themes">
+                      <img src="../images/ben/dos2.jpg" alt="dos loup" title="dos loup" class="img-responsive">
                       <div class="themes-overlay">
                         <div class="border">
                           <div class="content-group">
@@ -451,5 +452,14 @@
 <script src="../js/nanoscroll.js"></script>
 <script src="../js/wow.min.js"></script>
 <script src="../js/script.js"></script>
+<script src="../js/jquery.magnific-popup.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() {
+    $("a.themes-inner").magnificPopup({
+      type: "image"
+      // autres options
+    });
+  });
+</script>
 </body>
 </html>
