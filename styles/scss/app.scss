@@ -4320,7 +4320,7 @@ iframe {
 .purchase-now{
   background-color: #000;
 }
-#btnSnat{ margin-top:20px; }
+#btnSnat{ margin-top:15px; }
 ul li.active a.btnTattoo { background-color: #E53935; }
 ul li a.btnTattoo:hover { background-color: #E53935; }
 .clients-section .owl-pagination .owl-page.active span {
@@ -4334,6 +4334,25 @@ ul li a.btnTattoo:hover { background-color: #E53935; }
 .web-sidebar-menu .active a {
   color: $red;
 }
+
+#chankarTitle{
+  font-size:30px;
+  font-weight:bold;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+#profilChankar{
+  text-align:left;
+}
+
+#txtSnat{
+  font-size: 25px;
+  color:#FFF;
+}
+
+
+
 // Responsive
 
 @media only screen and (max-width: 1199px) {
