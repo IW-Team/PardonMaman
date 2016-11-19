@@ -4317,6 +4317,20 @@ iframe {
   }
 }
 
+.purchase-now{
+  background-color: #000;
+}
+#btnSnat{ margin-top:20px; }
+ul li.active a.btnTattoo { background-color: #E53935; }
+ul li a.btnTattoo:hover { background-color: #E53935; }
+.clients-section .owl-pagination .owl-page.active span {
+  background: #E53935 none repeat scroll 0 0;
+  opacity: 1;
+}
+.imgItem { width:150px; height:150px; }
+.pad { margin-top: -150px; }
+#titleContact { font-family: 'Great Vibes', cursive; color:#000; font-size:45px; }
+
 
 // Responsive
 
@@ -4543,5 +4557,7 @@ iframe {
     font-size: 18px;
   }
 }
+
+
 
 
