@@ -5103,7 +5103,7 @@ iframe {
     margin-bottom: 10px;
   }
 }
-@media screen and (min-width: 991px) and (max-width: 1199px) {
+@media screen and (min-width: 991px) {
   /* line 4335, ../scss/app.scss */
   .navbar-brand {
     width: 180px;
@@ -5129,7 +5129,7 @@ iframe {
     font-size: 20px;
   }
 }
-@media screen and (min-width: 768px) and (max-width: 991px) {
+@media screen and (min-width: 768px) {
   /* line 4353, ../scss/app.scss */
   .navbar-header {
     width: 100%;
@@ -5365,7 +5365,7 @@ iframe {
     background: #222222;
   }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
   /* line 4515, ../scss/app.scss */
   ._container-2 ._box {
     text-align: center;
@@ -5399,21 +5399,21 @@ iframe {
   }
 }
 @media screen and (max-width: 360px) {
-  /* line 4537, ../scss/app.scss */
+  /* line 4535, ../scss/app.scss */
   .navbar-header {
     margin: 0;
   }
 
-  /* line 4541, ../scss/app.scss */
+  /* line 4536, ../scss/app.scss */
   .navbar-brand {
     width: 200px;
   }
-  /* line 4543, ../scss/app.scss */
+  /* line 4538, ../scss/app.scss */
   .navbar-brand img {
     width: 100%;
   }
 
-  /* line 4548, ../scss/app.scss */
+  /* line 4542, ../scss/app.scss */
   .header-right-toggle a {
     padding: 8px 10px;
     font-size: 18px;

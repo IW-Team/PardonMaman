@@ -4331,7 +4331,7 @@ iframe {
   }
 }
 
-@media screen and (min-width: 991px) and (max-width: 1199px) {
+@media screen and (min-width: 991px) {
   .navbar-brand {
     width: 180px;
   }
@@ -4349,7 +4349,7 @@ iframe {
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 991px) {
+@media screen and (min-width: 768px) {
   .navbar-header {
     width: 100%;
   }
@@ -4468,7 +4468,6 @@ iframe {
     font-size: 26px;
     line-height: 30px;
   }
-
   .banner-section .item {
     padding: 15px 0;
   }
@@ -4510,7 +4509,7 @@ iframe {
 
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
   ._container-2 {
     ._box {
       text-align: center;
