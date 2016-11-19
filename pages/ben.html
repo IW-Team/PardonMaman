@@ -2,28 +2,21 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="Découvrez le profil du tatoueur Ben">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Découvrez le profil de ben">
 
-  <title>Tattoo by ben</title>
+  <title>PARDON MAMAN | Tatoueur Ben</title>
   <!-- Fav Icons   -->
-  <link rel="icon" href="images/favicon.png">
-  <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
-  <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
-  <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+  <link rel="icon" href="../images/favicon.png">
   <!-- Bootstrap -->
-  <link href="css/bootstrap.min.css" rel="stylesheet">
-  <link href="css/animate.min.css" rel="stylesheet">
+  <link href="../styles/css/bootstrap.min.css" rel="stylesheet">
+  <link href="../styles/css/animate.min.css" rel="stylesheet">
   <!-- Main CSS -->
-  <link href="css/style.css" rel="stylesheet">
-  <!-- responsive stylesheet -->
-  <link rel="stylesheet" href="css/responsive.css">
-  <link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
+  <link href="../styles/css/app.css" rel="stylesheet">
 
 </head>
 
-<body>
+<body class="do-homepage-one">
 <!-- preloader -->
 <div class="preloader">
   <div class="loader">&nbsp;</div>
@@ -34,7 +27,7 @@
     <div class="web-sidebar-menu-inner">
 
       <!--Header Section Start Here -->
-      <header class="header-section" id="home" >
+      <header class="header-section" >
         <div class="top-header">
           <div class="container">
             <div class="row ">
@@ -57,11 +50,11 @@
         <div class="navbar navbar-static-top">
           <div class="container">
             <div class="navbar-header">
-              <a class="navbar-brand col-md-12" href="index.html">
-                <img src="../images/logo.png" alt="LOGO" class="img-responsive">
+              <a class="navbar-brand col-md-12" href="../index.html">
+                <img src="../images/logoText.png" alt="Pardon Maman" class="img-responsive">
               </a>
               <div class="header-right-toggle pull-right hidden-md hidden-lg">
-                <a href="javascript:void(0)" class="side-menu-button"><i class="fa fa-bars"></i></a>
+                <a href="#" class="side-menu-button"><i class="fa fa-bars"></i></a>
               </div>
             </div>
             <nav class="main-navigation text-left pull-right hidden-xs hidden-sm">
@@ -69,83 +62,99 @@
                 <li class="active"><a href="#">Accueil</a></li>
                 <li><a href="#" class="has-submenu">Tattoo</a>
                   <ul class="sub-menu">
-                    <li><a href="ben.html">Tattoos by Ben</a></li>
-                    <li><a href="ben.html">Tattoos by ben</a></li>
-                    <li><a href="themes.html">Tattoos by David</a></li>
-                    <li><a href="themes.html">Tattoos by Jibé</a></li>
-                    <li><a href="themes.html">Tattoos by John Stone</a></li>
+                    <li><a href="../pages/ben.html">Tattoos by Ben</a></li>
+                    <li><a href="../pages/chankar.html">Tattoos by Chankar</a></li>
+                    <li><a href="#">Tattoos by David</a></li>
+                    <li><a href="#">Tattoos by Jibé</a></li>
+                    <li><a href="#">Tattoos by John Stone</a></li>
                   </ul>
                 </li>
                 <li><a href="#" class="has-submenu">Piercing</a>
                   <ul class="sub-menu">
-                    <li><a href="theme-details.html">Informations</a></li>
-                    <li><a href="faq.html">Précautions</a></li>
-                    <li><a href="privacy.html">Soins</a></li>
-                    <li><a href="terms.html">tarifs</a></li>
+                    <li><a href="#">Informations</a></li>
+                    <li><a href="#">Précautions</a></li>
+                    <li><a href="#">Soins</a></li>
+                    <li><a href="#">tarifs</a></li>
                   </ul>
                 </li>
-                <li> <a href="about.html">Hygène & Conseils</a></li>
-                <li> <a href="services.html">News</a></li>
+                <li> <a href="#">Hygène & Conseils</a></li>
+                <li> <a href="#">News</a></li>
                 <li><a href="#" class="has-submenu">Galerie</a>
                   <ul class="sub-menu">
-                    <li><a href="single-blog.html">Photos</a></li>
-                    <li><a href="blog.html">Vidéos</a></li>
+                    <li><a href="#">Photos</a></li>
+                    <li><a href="#">Vidéos</a></li>
                   </ul>
                 </li>
-                <li> <a href="contact.html">Contact</a></li>
+                <li> <a href="#">Contact</a></li>
               </ul>
             </nav>
           </div>
         </div>
+      </header>
+      <!-- Header Section End Here -->
 
-        <style>
-          .bg-gris{
-            background-color: #EEEEEE;
-          }
-          #p1{ color:black; margin-top: 30px; }
+      <!-- banner section Start Here -->
+      <section>
+        <!-- Carousel -->
+        <div id="slide" class="carousel slide" data-ride="carousel">
+          <!-- Carousel inner -->
+          <div class="carousel-inner">
+            <div class="item active" style="background-image:url(../images/slider/1_2.png)">
+              <div class="slider-content text-left">
+                <div class="col-md-12">
+                  <h2 class="slide-title animate2">We Build</h2>
+                  <h3 class="slide-sub-title animate3">Clean And Elegant Designs</h3>
+                  <p class="slider-description lead animate3">Over 2000+ Customers Use Our Clean And Elagent Designs</p>
+                </div>
+              </div>
+            </div><!--/ Carousel item 1 end -->
+
+            <div class="item" style="background-image:url(../images/slider/3_2.png)">
+              <div class="slider-content text-right">
+                <div class="col-md-12">
+                  <h2 class="slide-title animate6">We are here to help people</h2>
+                  <h3 class="slide-sub-title animate7">Greate User Experience</h3>
+                  <p class="slider-description lead animate7">We will deal with your failure that determines how you achieve success.</p>
+                </div>
+              </div>
+            </div><!--/ Carousel item 2 end -->
+            <div class="item" style="background-image:url(../images/slider/2_2.png)">
+              <div class="slider-content">
+                <div class="col-md-12 text-center">
+                  <h2 class="slide-title animate4">What We Have</h2>
+                  <h3 class="slide-sub-title animate5">Around 80+ peoples are working together</h3>
+                </div>
+              </div>
+            </div><!--/ Carousel item 3 end -->
+
+          </div><!-- Carousel inner end-->
+
+          <!-- Controllers -->
+          <a class="left carousel-control" href="#slide" data-slide="prev">
+            <span><i class="fa fa-angle-left"></i></span>
+          </a>
+          <a class="right carousel-control" href="#slide" data-slide="next">
+            <span><i class="fa fa-angle-right"></i></span>
+          </a>
+        </div>
+        <!--/ Carousel end -->
+      </section>
+      <!-- banner section End Here -->
+
+        <style  type="text/css">
+
           .benProfil{
             margin: auto;
             display: block;
             width: 300px;
-          ;
           }
-          .section-header{
-            margin-bottom: 30px;
-          }
-          .page-header { margin-top: 75px; }
-
-          @media screen and (max-width: 1000px) {
-            #txtProf {
-              margin-top: 50px;
-            }
-          }
-
-          .pad { margin-top: -150px; }
-          #titleContact { font-family: 'Great Vibes', cursive; color:#000; font-size:45px; }
 
           @media screen and (max-width: 479px) {
             .h-bold{
               text-align: center;
             }
-            .section-header span.line{
 
-            }
           }
-          @media screen and (max-width: 990px) {
-            .footer-about-widget{
-              margin-left:8%;
-              margin-right:8%;
-              margin-top:5%;
-            }
-          }
-          @media screen and (max-width: 740px) {
-            .footer-about-widget{
-              margin-left:3%;
-              margin-right:3%;
-              margin-top:5%;
-            }
-          }
-
           .contact-border{
             border-top: 1px solid darkgray;
             padding-top: 20px;
@@ -158,9 +167,6 @@
             .formulaire-form{
               text-align: left;
             }
-          }
-          .section-margin{
-            margin-top : 70px;
           }
           .item-filter > ul > li.active > a, .item-filter > ul > li.active > a,
           .item-filter > ul > li > a:hover, .item-filter > ul > li > a:focus{
@@ -180,323 +186,304 @@
             width: 140px;
             text-align: right;
           }
-          .avis{
-            padding-bottom: 40px;
-          }
+
         </style>
 
 
-      </header>
-      <!-- Header Section End Here -->
-
-      <div class="header-space"></div>
-
-      <div class="container">
-
-        <header class="page-header section-header text-center">
-          <h1 class="h-bold">Tattoos by <span>ben</span></h1>
-          <span class="line"></span>
-        </header>
-
-        <section class="Profil">
-          <div class="col-lg-6 col-md-6 col-xs-12">
-            <img src="../images/ben/benProfile.jpg" alt="Photo profil ben" class="benProfil img-circle">
-          </div>
-
-          <div id="txtProf" class="col-lg-6 col-md-6 col-xs-12">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa porro sint temporibus. Animi consequatur culpa cupiditate eaque eligendi facilis, fugit in labore porro vitae! Laboriosam maxime omnis praesentium quibusdam rerum!</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa porro sint temporibus. Animi consequatur culpa cupiditate eaque eligendi facilis, fugit in labore porro vitae! Laboriosam maxime omnis praesentium quibusdam rerum!</p>
-          </div>
-        </section>
-
-      </div>
-
 
       <!-- Main Section Start Here -->
-      <!-- all themes start -->
-      <section id="realisations" class="bg-gris">
-        <div class="section-margin">
+      <div id="main">
+        <!-- presentation ben start -->
+        <section class="section-padding">
+          <div class="container">
+            <header class="page-header section-header text-center">
+              <h1 class="h-bold">Tattoos by <span>ben</span></h1>
+              <span class="line"></span>
+            </header>
+
+              <div class="col-lg-6 col-md-6 col-xs-12 ">
+                <img src="../images/ben/benProfile.jpg" alt="Photo profil ben" class="benProfil img-circle">
+              </div>
+
+              <div class="col-lg-6 col-md-6 col-xs-12 m-t-15-sm m-t-15-xs">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa porro sint temporibus. Animi consequatur culpa cupiditate eaque eligendi facilis, fugit in labore porro vitae! Laboriosam maxime omnis praesentium quibusdam rerum!</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa porro sint temporibus. Animi consequatur culpa cupiditate eaque eligendi facilis, fugit in labore porro vitae! Laboriosam maxime omnis praesentium quibusdam rerum!</p>
+              </div>
+
+          </div>
+        </section>
+        <!-- presentation ben start -->
+
+        <!-- realisations start -->
+        <section id="realisations" class="section-padding">
           <div class="container">
 
+              <header class="page-header section-header text-center">
+                <h2 class="h-bold">Ses  <span>Réalisations</span></h2>
+                <span class="line text-center"></span>
+              </header>
+              <div class="item-filter m-t-20">
+                <ul class="list-unstyled font-header font-12 clearfix">
+                  <li class="active"><a href="#" data-filter="*" data-toggle="tab">Toutes</a></li>
+                  <li><a href="#" data-filter=".bras" data-toggle="tab">Bras</a></li>
+                  <li><a href="#" data-filter=".jambes" data-toggle="tab">Jambes</a></li>
+                  <li><a href="#" data-filter=".dos" data-toggle="tab">Dos</a></li>
+                </ul>
+              </div>
+              <div class="row">
+                <div class="themes-group has-padding grid-three clearfix">
+                  <div class="themes-item jambes">
+                    <a href="#" class="themes-inner animsition-link">
+                      <img src="../images/ben/Jambe1.jpg" title="jambe maori" alt="jambe maori" class="img-responsive" alt="themes">
+                      <div class="themes-overlay">
+                        <div class="border">
+                          <div class="content-group">
+                            <i class="fa fa-link"></i>
+                            <h6 class="font-15 m-t-10">Jambes Tatto maori</h6>
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="themes-item jambes">
+                    <a href="#" class="themes-inner animsition-link">
+                      <img src="../images/ben/jambe2.jpg" title="jambe maori" alt="jambe maori" class="img-responsive" alt="themes">
+                      <div class="themes-overlay">
+                        <div class="border">
+                          <div class="content-group">
+                            <i class="fa fa-link"></i>
+                            <h6 class="font-15 m-t-10">Jambes Tatto maori</h6>
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="themes-item bras">
+                    <a href="#" class="themes-inner animsition-link">
+                      <img src="../images/ben/Bras1.JPG" title="tatouage bras maori" alt="bras tatto maori" class="img-responsive">
+
+                      <div class="themes-overlay">
+                        <div class="border">
+                          <div class="content-group">
+                            <i class="fa fa-link"></i>
+                            <h6 class="font-15 m-t-10">Bras tattoo Maori</h6>
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="themes-item bras">
+                    <a href="#" class="themes-inner animsition-link">
+                      <img src="../images/ben/bras2.jpg" title="tatouage bras lettrage noir" alt="bras tatto lettrage noir" class="img-responsive">
+
+                      <div class="themes-overlay">
+                        <div class="border">
+                          <div class="content-group">
+                            <i class="fa fa-link"></i>
+                            <h6 class="font-15 m-t-10">Bras tattoo Maori</h6>
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="themes-item dos">
+                    <a href="#" class="themes-inner animsition-link">
+                      <img src="../images/ben/Dos1.jpg" alt="Dos tatto clé couronne noir" title="clé dos couronne noir" class="img-responsive" >
+
+                      <div class="themes-overlay">
+                        <div class="border">
+                          <div class="content-group">
+                            <i class="fa fa-link"></i>
+                            <h6 class="font-15 m-t-10">Dos clé couronne noir</h6>
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="themes-item dos">
+                    <a href="#" class="themes-inner animsition-link">
+                      <img src="../images/ben/dos2.jpg" alt="dos loup" title="dos loup" class="img-responsive" alt="themes">
+                      <div class="themes-overlay">
+                        <div class="border">
+                          <div class="content-group">
+                            <i class="fa fa-link"></i>
+                            <h6 class="font-15 m-t-10">Dos</h6>
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div><!-- /.themes-group -->
+            </div>
+
+        </section>
+        <!-- realisations end -->
+
+        <!-- avis client ben start -->
+        <section class="section-padding">
+          <div class="container">
             <header class="page-header section-header text-center">
-              <h2 class="h-bold">Ses  <span>Réalisations</span></h2>
+              <h1 class="h-bold">Les avis <span>clients</span></h1>
+              <span class="line"></span>
+            </header>
+
+            <div class="text-center">
+              <div class="col-lg-6 col-md-6 col-xs-12 p-b-20">
+                <p>
+                    <span class="text-center">
+                        <i class="fa fa-star red" aria-hidden="true"></i>
+                        <i class="fa fa-star red" aria-hidden="true"></i>
+                        <i class="fa fa-star red" aria-hidden="true"></i>
+                        <i class="fa fa-star red" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                        consectetur adipisicing elit. Culpa porro sint t
+                    </span>
+                  <br>
+                  <small><em>Anne - 22/08/2016</em></small>
+
+                </p>
+
+                <p>
+                  <span class="text-center">
+                      <i class="fa fa-star red" aria-hidden="true"></i>
+                      <i class="fa fa-star red" aria-hidden="true"></i>
+                      <i class="fa fa-star red" aria-hidden="true"></i>
+                      <i class="fa fa-star red" aria-hidden="true"></i>
+                      <i class="fa fa-star-o" aria-hidden="true"></i>
+                      consectetur adipisicing elit. Culpa porro sint t
+                  </span>
+                  <br>
+                  <small><em>Jean - 22/08/2016</em></small>
+                </p>
+
+                <p>
+                  <span class="text-center">
+                      <i class="fa fa-star red" aria-hidden="true"></i>
+                      <i class="fa fa-star red" aria-hidden="true"></i>
+                      <i class="fa fa-star red" aria-hidden="true"></i>
+                      <i class="fa fa-star red" aria-hidden="true"></i>
+                      <i class="fa fa-star red" aria-hidden="true"></i>
+                      consectetur adipisicing elit. Culpa porro sint t
+                  </span>
+                  <br>
+                  <small><em>Pierre - 22/08/2016</em></small>
+
+                </p>
+              </div>
+              <div class="col-lg-6 col-md-6 col-xs-12 contact-border ">
+                <h3 class="text-center">Donnez le votre :</h3>
+                <form action="/" class="formulaire-form m-t-10">
+                  <label for="nom" class=" formulaire">Nom:</label>
+                  <input type="text" name="firstname" value="" id="nom">
+                  <br><br>
+                  <label for="prenom" class=" formulaire">Prenom:</label>
+                  <input type="text" name="lastname" value="" id="prenom">
+                  <br><br>
+                  <label  for="msg" class=" formulaire">Message :</label>
+                  <textarea  id="msg" name="comment">Tapez votre message ici</textarea>
+                  <br><br>
+                  <div class="text-center">
+                    <input type="submit" value="Envoyer">
+                  </div>
+
+                </form>
+              </div>
+
+            </div>
+
+          </div>
+
+        </section>
+        <!-- avis client End  -->
+
+        <!-- Begin : Nous trouver ? -->
+        <section class="section-padding">
+          <div class="container">
+            <header class="page-header section-header text-center">
+              <h1 class="h-bold">Nous  <span>trouver ?</span></h1>
               <span class="line text-center"></span>
             </header>
-            <div class="item-filter m-t-20">
-              <ul class="list-unstyled font-header font-12 clearfix">
-                <li class="active"><a href="#" data-filter="*" data-toggle="tab">Toutes</a></li>
-                <li><a href="#" data-filter=".bras" data-toggle="tab">Bras</a></li>
-                <li><a href="#" data-filter=".jambes" data-toggle="tab">Jambes</a></li>
-                <li><a href="#" data-filter=".dos" data-toggle="tab">Dos</a></li>
-              </ul>
-            </div>
-            <div class="row">
-              <div class="themes-group has-padding grid-three clearfix">
-                <div class="themes-item jambes">
-                  <a href="#" class="themes-inner animsition-link">
-                    <img src="../images/ben/Jambe1.jpg" title="jambe maori" alt="jambe maori" class="img-responsive" alt="themes">
-                    <div class="themes-overlay">
-                      <div class="border">
-                        <div class="content-group">
-                          <i class="fa fa-link"></i>
-                          <h6 class="font-15 m-t-10">Jambes Tatto maori</h6>
-                        </div>
-                      </div>
-                    </div>
-                  </a>
-                </div>
-                <div class="themes-item jambes">
-                  <a href="#" class="themes-inner animsition-link">
-                    <img src="../images/ben/jambe2.jpg" title="jambe maori" alt="jambe maori" class="img-responsive" alt="themes">
-                    <div class="themes-overlay">
-                      <div class="border">
-                        <div class="content-group">
-                          <i class="fa fa-link"></i>
-                          <h6 class="font-15 m-t-10">Jambes Tatto maori</h6>
-                        </div>
-                      </div>
-                    </div>
-                  </a>
-                </div>
-                <div class="themes-item bras">
-                  <a href="#" class="themes-inner animsition-link">
-                    <img src="../images/ben/Bras1.JPG" title="tatouage bras maori" alt="bras tatto maori" class="img-responsive">
+            <div class="_container-2 _align-center m-t-30">
+              <div class="_box _w-60 _600-order-2 text-center">
+                <h2 style="margin-bottom: 20px">PARDON MAMAN</h2>
+                <p style="margin-bottom: 20px">
+                  2 Boulevard du Général Gallieni
+                  <br>
+                  94360  Bry sur Marne
+                </p>
+                <p>
+                  – Le salon est ouvert du mardi au samedi, de 11h à 19h sans interruption –
+                </p>
+                <p>
+                  BUS 120 & 210 – arrêt « Le château »
+                  RER A – arrêt « Bry sur Marne » (direction Marne la Vallée)
 
-                    <div class="themes-overlay">
-                      <div class="border">
-                        <div class="content-group">
-                          <i class="fa fa-link"></i>
-                          <h6 class="font-15 m-t-10">Bras tattoo Maori</h6>
-                        </div>
-                      </div>
-                    </div>
-                  </a>
-                </div>
-                <div class="themes-item bras">
-                  <a href="#" class="themes-inner animsition-link">
-                    <img src="../images/ben/bras2.jpg" title="tatouage bras lettrage noir" alt="bras tatto lettrage noir" class="img-responsive">
-
-                    <div class="themes-overlay">
-                      <div class="border">
-                        <div class="content-group">
-                          <i class="fa fa-link"></i>
-                          <h6 class="font-15 m-t-10">Bras tattoo Maori</h6>
-                        </div>
-                      </div>
-                    </div>
-                  </a>
-                </div>
-                <div class="themes-item dos">
-                  <a href="#" class="themes-inner animsition-link">
-                    <img src="../images/ben/Dos1.jpg" alt="Dos tatto clé couronne noir" title="clé dos couronne noir" class="img-responsive" >
-
-                    <div class="themes-overlay">
-                      <div class="border">
-                        <div class="content-group">
-                          <i class="fa fa-link"></i>
-                          <h6 class="font-15 m-t-10">Dos clé couronne noir</h6>
-                        </div>
-                      </div>
-                    </div>
-                  </a>
-                </div>
-                <div class="themes-item dos">
-                  <a href="#" class="themes-inner animsition-link">
-                    <img src="../images/ben/dos2.jpg" alt="dos loup" title="dos loup" class="img-responsive" alt="themes">
-                    <div class="themes-overlay">
-                      <div class="border">
-                        <div class="content-group">
-                          <i class="fa fa-link"></i>
-                          <h6 class="font-15 m-t-10">Dos</h6>
-                        </div>
-                      </div>
-                    </div>
-                  </a>
-                </div>
+                  N ‘hésitez pas à nous appeler pour tout renseignement au 09 52 95 67 55
+                </p>
               </div>
-            </div><!-- /.themes-group -->
-          </div>
-        </div>
-      </section>
-      <!-- all themes end -->
-      <section class="avis bg-gris">
-        <div class="container">
-          <header class="page-header section-header text-center">
-            <h1 class="h-bold">Les avis <span>clients</span></h1>
-            <span class="line"></span>
-          </header>
-
-          <div class="text-center">
-            <div class="col-lg-6 col-md-6 col-xs-12">
-              <p>
-                                <span class="text-center">
-                                    <i class="fa fa-star red" aria-hidden="true"></i>
-                                    <i class="fa fa-star red" aria-hidden="true"></i>
-                                    <i class="fa fa-star red" aria-hidden="true"></i>
-                                    <i class="fa fa-star red" aria-hidden="true"></i>
-                                    <i class="fa fa-star-o" aria-hidden="true"></i>
-                                    consectetur adipisicing elit. Culpa porro sint t
-                                </span>
-                <br>
-                <small><em>Anne - 22/08/2016</em></small>
-
-              </p>
-
-              <p>
-                                <span class="text-center">
-                                    <i class="fa fa-star red" aria-hidden="true"></i>
-                                    <i class="fa fa-star red" aria-hidden="true"></i>
-                                    <i class="fa fa-star red" aria-hidden="true"></i>
-                                    <i class="fa fa-star red" aria-hidden="true"></i>
-                                    <i class="fa fa-star-o" aria-hidden="true"></i>
-                                    consectetur adipisicing elit. Culpa porro sint t
-                                </span>
-                <br>
-                <small><em>Jean - 22/08/2016</em></small>
-
-              </p>
-
-              <p>
-                                <span class="text-center">
-                                    <i class="fa fa-star red" aria-hidden="true"></i>
-                                    <i class="fa fa-star red" aria-hidden="true"></i>
-                                    <i class="fa fa-star red" aria-hidden="true"></i>
-                                    <i class="fa fa-star red" aria-hidden="true"></i>
-                                    <i class="fa fa-star red" aria-hidden="true"></i>
-                                    consectetur adipisicing elit. Culpa porro sint t
-                                </span>
-                <br>
-                <small><em>Pierre - 22/08/2016</em></small>
-
-              </p>
-            </div>
-            <div class="col-lg-6 col-md-6 col-xs-12 contact-border ">
-              <h3 class="text-center">Donnez le votre :</h3>
-              <form action="/" class="formulaire-form">
-                <label for="nom" class=" formulaire">Nom:</label>
-                <input type="text" name="firstname" value="" id="nom">
-                <br><br>
-                <label for="prenom" class=" formulaire">Prenom:</label>
-                <input type="text" name="lastname" value="" id="prenom">
-                <br><br>
-                <label  for="msg" class=" formulaire">Message :</label>
-                <textarea  id="msg" name="comment">Tapez votre message ici</textarea>
-                <br><br>
-                <div class="text-center">
-                  <input type="submit" value="Envoyer">
-                </div>
-
-              </form>
-            </div>
-
-          </div>
-
-        </div>
-
-      </section>
-      <!-- Main Section End Here -->
-
-      <!-- Footer Section Start Here -->
-      <footer id="footer">
-        <section class="footer-section-mid">
-          <div class="section-margin">
-            <div class="container">
-              <div class="row">
-                <div class="footer-mid">
-                  <header class="page-header section-header text-center" style="margin-bottom: 50px">
-                    <h1 class="h-bold">Nous  <span>trouver ?</span></h1>
-                    <span class="line text-center"></span>
-                  </header>
-
-                  <!-- Link Widget -->
-                  <div class="footer-widget footer-link-widget col-md-6 col-sm-12 col-xs-12" style="text-align: center">
-                    <h2 id="titleContact" style="margin-bottom: 20px">Pardon Maman</h2>
-                    <p style="margin-bottom: 20px">
-                      2 Boulevard du Général Gallieni
-                      <br>
-                      94360  Bry sur Marne
-                    </p>
-                    <p>
-                      – Le salon est ouvert du mardi au samedi, de 11h à 19h sans interruption –
-                    </p>
-                    <p>
-                      BUS 120 & 210 – arrêt « Le château »
-                      RER A – arrêt « Bry sur Marne » (direction Marne la Vallée)
-
-                      N ‘hésitez pas à nous appeler pour tout renseignement au 09 52 95 67 55
-                    </p>
-                  </div>
-                  <!-- Link Widget End -->
-
-                  <!-- About Widget -->
-                  <div class="footer-widget footer-about-widget col-md-6 col-sm-12 col-xs-12">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2625.9847812514113!2d2.5204779156736987!3d48.839428979285636!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e60d932f702601%3A0xf74517d74d575546!2s2+Boulevard+du+G%C3%A9n%C3%A9ral+Gallieni%2C+94360+Bry-sur-Marne!5e0!3m2!1sfr!2sfr!4v1478268861970" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-                  </div>
-                  <!-- About Widget End -->
-
-                </div>
-                <!-- FOOTER TOP END -->
+              <div class="_box _w-40 _600-order-1 text-left">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2625.9847812514113!2d2.5204779156736987!3d48.839428979285636!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e60d932f702601%3A0xf74517d74d575546!2s2+Boulevard+du+G%C3%A9n%C3%A9ral+Gallieni%2C+94360+Bry-sur-Marne!5e0!3m2!1sfr!2sfr!4v1478268861970" width="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
               </div>
             </div>
           </div>
         </section>
-        <section class="footer-section-bottom">
-          <div class="container">
-            <div class="row">
-              <div class="">
-                <p class="copyright ">Pardon Maman - Copyright © TOUS DROITS RESERVÉS</p>
-              </div>
-            </div>
-          </div>
-        </section>
-      </footer>
-      <!-- End footer -->
-      <a class="scroll-top fa fa-angle-up" href="../javascript:void(0)"></a>
-    </div>
-  </div>
-  <nav class="web-sidebar-menu web-slide-from-left">
-    <div class="nano">
-      <div class="content">
-        <nav class="responsive-menu">
-          <span class="wa-close"><i class="fa fa-close"></i></span>
-          <ul>
-            <li><a href="../index.html">Home</a></li>
-            <li><a href="../index2.html">Home Two</a></li>
-            <li><a href="../themes.html">Themes</a>
-              <ul>
-                <li><a href="../themes.html">WordPress Themes</a></li>
-                <li><a href="../themes.html">HTML Templates</a></li>
-                <li><a href="../themes.html">Joomla Themes</a></li>
-                <li><a href="../themes.html">Magento Themes</a></li>
-              </ul>
-            </li>
-            <li><a href="../themes.html">Pages</a>
-              <ul>
-                <li><a href="../theme-details.html">Theme Details</a></li>
-                <li><a href="../faq.html">Faq</a></li>
-                <li><a href="../privacy.html">Privacy</a></li>
-                <li><a href="../terms.html">Terms</a></li>
-                <li><a href="../cart.html">Cart</a></li>
-                <li><a href="../pricing.html">Pricing</a></li>
-              </ul>
-            </li>
-            <li><a href="../about.html">About Us</a></li>
-            <li><a href="../services.html">Services</a></li>
-            <li><a href="../blog.html">Blog</a>
-              <ul>
-                <li><a href="../single-blog.html">Single-Blog</a></li>
-                <li><a href="../blog.html">Blog-Right-Sidebar</a></li>
-                <li><a href="../blog-full-width.html">Blog-Full-Width</a></li>
-                <li><a href="../blog-left-sidebar.html">Blog-Left-Sidebar</a></li>
-                <li><a href="../blog-col-2.html">Blog-Col-2</a></li>
-              </ul>
-            </li>
-            <li><a href="../contact.html">Contact us</a></li>
-            <li><a href="../#">Support</a></li>
-          </ul>
-        </nav>
+        <!-- End : Nous trouver ? -->
+
       </div>
     </div>
+    <!-- Main Section End Here -->
+
+    <!-- Footer Section Start Here -->
+    <footer id="footer">
+      <section class="footer-section-bottom">
+        <p class="container copyright ">Copyright © All rights reserved</p>
+      </section>
+    </footer>
+    <!-- End footer -->
+
+    <a class="scroll-top fa fa-angle-up" href="#"></a>
+
+  </div>
+<nav class="web-sidebar-menu web-slide-from-left">
+  <div class="nano">
+    <div class="content">
+      <nav class="responsive-menu">
+        <span class="wa-close"><i class="fa fa-close"></i></span>
+        <ul>
+          <li class="active"><a href="#">Accueil</a></li>
+          <li><a href="#">Tattoo</a>
+            <ul>
+              <li><a href="../pages/ben.html">Tattoos by Ben</a></li>
+              <li><a href="../pages/chankar.html">Tattoos by Chankar</a></li>
+              <li><a href="#">Tattoos by David</a></li>
+              <li><a href="#">Tattoos by Jibé</a></li>
+              <li><a href="#">Tattoos by John Stone</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Piercing</a>
+            <ul>
+              <li><a href="#">Informations</a></li>
+              <li><a href="#">Précautions</a></li>
+              <li><a href="#">Soins</a></li>
+              <li><a href="#">tarifs</a></li>
+            </ul>
+          </li>
+          <li> <a href="#">Hygène & Conseils</a></li>
+          <li> <a href="#">News</a></li>
+          <li><a href="#">Galerie</a>
+            <ul>
+              <li><a href="#">Photos</a></li>
+              <li><a href="#">Vidéos</a></li>
+            </ul>
+          </li>
+          <li> <a href="#">Contact</a></li>
+
+        </ul>
+
+      </nav>
+    </div>
+  </div>
   </nav>
 </div>
 
@@ -512,6 +499,5 @@
 <script src="../js/nanoscroll.js"></script>
 <script src="../js/wow.min.js"></script>
 <script src="../js/script.js"></script>
-
 </body>
 </html>
