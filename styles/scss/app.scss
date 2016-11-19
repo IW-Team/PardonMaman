@@ -4331,7 +4331,7 @@ iframe {
   }
 }
 
-@media screen and (min-width: 991px) {
+@media screen and (min-width: 991px) and (max-width: 1199px) {
   .navbar-brand {
     width: 180px;
   }
@@ -4349,7 +4349,7 @@ iframe {
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 991px) {
   .navbar-header {
     width: 100%;
   }
@@ -4521,7 +4521,7 @@ iframe {
       }
       &._600-order-2 {
         order: 2;
-        margin: 15px 0 0px 0;
+        margin: 15px 0 0 0;
       }
     }
   }

@@ -5103,7 +5103,7 @@ iframe {
     margin-bottom: 10px;
   }
 }
-@media screen and (min-width: 991px) {
+@media screen and (min-width: 991px) and (max-width: 1199px) {
   /* line 4335, ../scss/app.scss */
   .navbar-brand {
     width: 180px;
@@ -5129,7 +5129,7 @@ iframe {
     font-size: 20px;
   }
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 991px) {
   /* line 4353, ../scss/app.scss */
   .navbar-header {
     width: 100%;
@@ -5307,113 +5307,113 @@ iframe {
     line-height: 30px;
   }
 
-  /* line 4472, ../scss/app.scss */
+  /* line 4471, ../scss/app.scss */
   .banner-section .item {
     padding: 15px 0;
   }
 
-  /* line 4475, ../scss/app.scss */
+  /* line 4474, ../scss/app.scss */
   .process .content .h2 {
     font-size: 25px;
   }
 
-  /* line 4478, ../scss/app.scss */
+  /* line 4477, ../scss/app.scss */
   .featured-item-listing .item-info ul {
     margin: 0;
   }
 
-  /* line 4481, ../scss/app.scss */
+  /* line 4480, ../scss/app.scss */
   .check-it .content .text-right,
   .purchase-now .content .text-right,
   .process .content .text-right {
     text-align: left !important;
   }
 
-  /* line 4486, ../scss/app.scss */
+  /* line 4485, ../scss/app.scss */
   .check-it .content h2,
   .purchase-now .content h2,
   .process .content h2 {
     padding-bottom: 20px;
   }
 
-  /* line 4491, ../scss/app.scss */
+  /* line 4490, ../scss/app.scss */
   .footer-section-top .social-footer,
   .footer-section-bottom .we-accept {
     padding: 20px 0;
     float: left;
   }
 
-  /* line 4496, ../scss/app.scss */
+  /* line 4495, ../scss/app.scss */
   .footer-section-top h3,
   .footer-section-bottom h3 {
     width: 100%;
     margin: 10px 0;
   }
 
-  /* line 4501, ../scss/app.scss */
+  /* line 4500, ../scss/app.scss */
   .footer-section-top .newsletter-widget input[type="email"] {
     margin-bottom: 20px;
   }
 
-  /* line 4504, ../scss/app.scss */
+  /* line 4503, ../scss/app.scss */
   .grid-three .themes-item {
     width: 50%;
   }
 
-  /* line 4507, ../scss/app.scss */
+  /* line 4506, ../scss/app.scss */
   .what-we-section .over-bg {
     background: #222222;
   }
 }
 @media screen and (max-width: 700px) {
-  /* line 4515, ../scss/app.scss */
+  /* line 4514, ../scss/app.scss */
   ._container-2 ._box {
     text-align: center;
     width: 100%;
   }
-  /* line 4518, ../scss/app.scss */
+  /* line 4517, ../scss/app.scss */
   ._container-2 ._box._w-40 {
     width: 100%;
   }
-  /* line 4519, ../scss/app.scss */
+  /* line 4518, ../scss/app.scss */
   ._container-2 ._box._w-60 {
     width: 100%;
   }
-  /* line 4520, ../scss/app.scss */
+  /* line 4519, ../scss/app.scss */
   ._container-2 ._box._600-order-1 {
     -webkit-box-ordinal-group: 2;
         -ms-flex-order: 1;
             order: 1;
   }
-  /* line 4523, ../scss/app.scss */
+  /* line 4522, ../scss/app.scss */
   ._container-2 ._box._600-order-2 {
     -webkit-box-ordinal-group: 3;
         -ms-flex-order: 2;
             order: 2;
-    margin: 15px 0 0px 0;
+    margin: 15px 0 0 0;
   }
 
-  /* line 4529, ../scss/app.scss */
+  /* line 4528, ../scss/app.scss */
   .contact-detail2 {
     display: none;
   }
 }
 @media screen and (max-width: 360px) {
-  /* line 4535, ../scss/app.scss */
+  /* line 4534, ../scss/app.scss */
   .navbar-header {
     margin: 0;
   }
 
-  /* line 4536, ../scss/app.scss */
+  /* line 4535, ../scss/app.scss */
   .navbar-brand {
     width: 200px;
   }
-  /* line 4538, ../scss/app.scss */
+  /* line 4537, ../scss/app.scss */
   .navbar-brand img {
     width: 100%;
   }
 
-  /* line 4542, ../scss/app.scss */
+  /* line 4541, ../scss/app.scss */
   .header-right-toggle a {
     padding: 8px 10px;
     font-size: 18px;
