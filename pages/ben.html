@@ -59,7 +59,7 @@
             </div>
             <nav class="main-navigation text-left pull-right hidden-xs hidden-sm">
               <ul class="nav navbar-nav">
-                <li ><a href="#">Accueil</a></li>
+                <li ><a href="../index.html">Accueil</a></li>
                 <li class="active"><a href="#" class="has-submenu">Tattoo</a>
                   <ul class="sub-menu">
                     <li><a href="../pages/ben.html">Tattoos by Ben</a></li>
@@ -141,56 +141,6 @@
       </section>
       <!-- banner section End Here -->
 
-        <style  type="text/css">
-
-          .benProfil{
-            margin: auto;
-            display: block;
-            width: 300px;
-          }
-
-          @media screen and (max-width: 479px) {
-            .h-bold{
-              text-align: center;
-            }
-
-          }
-          .contact-border{
-            border-top: 1px solid darkgray;
-            padding-top: 20px;
-          }
-          @media screen and (min-width: 992px){
-            .contact-border{
-              border-left: 1px solid darkgray;
-              border-top: none;
-            }
-            .formulaire-form{
-              text-align: left;
-            }
-          }
-          .item-filter > ul > li.active > a, .item-filter > ul > li.active > a,
-          .item-filter > ul > li > a:hover, .item-filter > ul > li > a:focus{
-            background-color: #E53935;
-          }
-          .hvr-shutter-in-vertical:before{
-            background: #E53935;
-          }
-          .red{
-            color: #E53935;
-          }
-          .formulaire-form{
-            text-align: center;
-          }
-          .formulaire{
-            display: inline-block;
-            width: 140px;
-            text-align: right;
-          }
-
-        </style>
-
-
-
       <!-- Main Section Start Here -->
       <div id="main">
         <!-- presentation ben start -->
@@ -201,25 +151,31 @@
               <span class="line"></span>
             </header>
 
-              <div class="col-lg-6 col-md-6 col-xs-12 ">
+            <div class="_container-2 _align-center m-t-30">
+              <div class="_box _w-40 _600-order-1 text-right">
                 <img src="../images/ben/benProfile.jpg" alt="Photo profil ben" class="benProfil img-circle">
               </div>
-
-              <div class="col-lg-6 col-md-6 col-xs-12 m-t-15-sm m-t-15-xs">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa porro sint temporibus. Animi consequatur culpa cupiditate eaque eligendi facilis, fugit in labore porro vitae! Laboriosam maxime omnis praesentium quibusdam rerum!</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa porro sint temporibus. Animi consequatur culpa cupiditate eaque eligendi facilis, fugit in labore porro vitae! Laboriosam maxime omnis praesentium quibusdam rerum!</p>
+              <div class="_box _w-60 _600-order-2 text-center">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus beatae dolores earum eligendi
+                  esse fugit impedit in incidunt iure minima natus nemo nihil, perferendis quae quasi, tempora
+                  tempore voluptas voluptates.
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos eum expedita illum, iste modi nam
+                  nobis rerum sed. Accusamus autem corporis odit rem sequi? Consequatur ducimus illum non odio
+                  repellendus.
+                </p>
               </div>
+            </div>
 
           </div>
         </section>
         <!-- presentation ben start -->
 
         <!-- realisations start -->
-        <section id="realisations" class="section-padding">
+        <section class="section-padding">
           <div class="container">
-
               <header class="page-header section-header text-center">
-                <h2 class="h-bold">Ses  <span>Réalisations</span></h2>
+                <h1 class="h-bold">Ses  <span>Réalisations</span></h1>
                 <span class="line text-center"></span>
               </header>
               <div class="item-filter m-t-20">
@@ -314,22 +270,21 @@
                     </a>
                   </div>
                 </div>
-              </div><!-- /.themes-group -->
+              </div>
             </div>
-
         </section>
         <!-- realisations end -->
 
         <!-- avis client ben start -->
-        <section class="section-padding">
+        <section class="section-padding contact">
           <div class="container">
             <header class="page-header section-header text-center">
               <h1 class="h-bold">Les avis <span>clients</span></h1>
               <span class="line"></span>
             </header>
-
-            <div class="text-center">
-              <div class="col-lg-6 col-md-6 col-xs-12 p-b-20">
+            <div class="_container-2 m-t-30">
+              <div class="_box _700-order-1 text-right">
+                <!-- Starts-->
                 <p>
                     <span class="text-center">
                         <i class="fa fa-star red" aria-hidden="true"></i>
@@ -340,10 +295,8 @@
                         consectetur adipisicing elit. Culpa porro sint t
                     </span>
                   <br>
-                  <small><em>Anne - 22/08/2016</em></small>
-
+                  <span><em>Anne - 22/08/2016</em></span>
                 </p>
-
                 <p>
                   <span class="text-center">
                       <i class="fa fa-star red" aria-hidden="true"></i>
@@ -356,7 +309,6 @@
                   <br>
                   <small><em>Jean - 22/08/2016</em></small>
                 </p>
-
                 <p>
                   <span class="text-center">
                       <i class="fa fa-star red" aria-hidden="true"></i>
@@ -370,30 +322,30 @@
                   <small><em>Pierre - 22/08/2016</em></small>
 
                 </p>
+
               </div>
-              <div class="col-lg-6 col-md-6 col-xs-12 contact-border ">
-                <h3 class="text-center">Donnez le votre :</h3>
-                <form action="/" class="formulaire-form m-t-10">
-                  <label for="nom" class=" formulaire">Nom:</label>
-                  <input type="text" name="firstname" value="" id="nom">
-                  <br><br>
-                  <label for="prenom" class=" formulaire">Prenom:</label>
-                  <input type="text" name="lastname" value="" id="prenom">
-                  <br><br>
-                  <label  for="msg" class=" formulaire">Message :</label>
-                  <textarea  id="msg" name="comment">Tapez votre message ici</textarea>
-                  <br><br>
-                  <div class="text-center">
-                    <input type="submit" value="Envoyer">
-                  </div>
+              <div class="_box _700-order-2">
+                <form action="#" class="formulaire-form m-t-10">
+                  <p class="m-b-20">
+                    <label for="nom" class="formulaire m-b-5">Nom:</label>
+                    <input type="text" name="firstname" id="nom">
+                  </p>
+                  <p class="m-b-20">
+                    <label for="prenom" class="formulaire m-b-5">Prenom:</label>
+                    <input type="text" name="lastname" id="prenom">
+                  </p>
+                  <p class="m-b-20">
+                    <label  for="msg" class="formulaire m-b-5">Message :</label>
+                    <textarea  id="msg" name="comment" placeholder="Donner votre avis"></textarea>
+                  </p>
+                  <p class="m-b-20">
+                    <input type="submit" value="Envoyer" class="btn btn-theme m-t-10">
+                  </p>
 
                 </form>
               </div>
-
             </div>
-
           </div>
-
         </section>
         <!-- avis client End  -->
 
@@ -405,7 +357,7 @@
               <span class="line text-center"></span>
             </header>
             <div class="_container-2 _align-center m-t-30">
-              <div class="_box _w-60 _600-order-2 text-center">
+              <div class="_box _w-60 _700-order-2 text-center">
                 <h2 style="margin-bottom: 20px">PARDON MAMAN</h2>
                 <p style="margin-bottom: 20px">
                   2 Boulevard du Général Gallieni
@@ -422,7 +374,7 @@
                   N ‘hésitez pas à nous appeler pour tout renseignement au 09 52 95 67 55
                 </p>
               </div>
-              <div class="_box _w-40 _600-order-1 text-left">
+              <div class="_box _w-40 _700-order-1 text-left">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2625.9847812514113!2d2.5204779156736987!3d48.839428979285636!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e60d932f702601%3A0xf74517d74d575546!2s2+Boulevard+du+G%C3%A9n%C3%A9ral+Gallieni%2C+94360+Bry-sur-Marne!5e0!3m2!1sfr!2sfr!4v1478268861970" width="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
               </div>
             </div>
@@ -445,45 +397,45 @@
     <a class="scroll-top fa fa-angle-up" href="#"></a>
 
   </div>
-<nav class="web-sidebar-menu web-slide-from-left">
-  <div class="nano">
-    <div class="content">
-      <nav class="responsive-menu">
-        <span class="wa-close"><i class="fa fa-close"></i></span>
-        <ul>
-          <li><a href="#">Accueil</a></li>
-          <li><a href="#">Tattoo</a>
-            <ul>
-              <li class="active"><a href="../pages/ben.html">Tattoos by Ben</a></li>
-              <li><a href="../pages/chankar.html">Tattoos by Chankar</a></li>
-              <li><a href="#">Tattoos by David</a></li>
-              <li><a href="#">Tattoos by Jibé</a></li>
-              <li><a href="#">Tattoos by John Stone</a></li>
-            </ul>
-          </li>
-          <li><a href="#">Piercing</a>
-            <ul>
-              <li><a href="#">Informations</a></li>
-              <li><a href="#">Précautions</a></li>
-              <li><a href="#">Soins</a></li>
-              <li><a href="#">tarifs</a></li>
-            </ul>
-          </li>
-          <li> <a href="#">Hygène & Conseils</a></li>
-          <li> <a href="#">News</a></li>
-          <li><a href="#">Galerie</a>
-            <ul>
-              <li><a href="#">Photos</a></li>
-              <li><a href="#">Vidéos</a></li>
-            </ul>
-          </li>
-          <li> <a href="#">Contact</a></li>
+  <nav class="web-sidebar-menu web-slide-from-left">
+    <div class="nano">
+      <div class="content">
+        <nav class="responsive-menu">
+          <span class="wa-close"><i class="fa fa-close"></i></span>
+          <ul>
+            <li><a href="../index.html">Accueil</a></li>
+            <li><a href="#">Tattoo</a>
+              <ul>
+                <li class="active"><a href="../pages/ben.html">Tattoos by Ben</a></li>
+                <li><a href="../pages/chankar.html">Tattoos by Chankar</a></li>
+                <li><a href="#">Tattoos by David</a></li>
+                <li><a href="#">Tattoos by Jibé</a></li>
+                <li><a href="#">Tattoos by John Stone</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Piercing</a>
+              <ul>
+                <li><a href="#">Informations</a></li>
+                <li><a href="#">Précautions</a></li>
+                <li><a href="#">Soins</a></li>
+                <li><a href="#">tarifs</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Hygène & Conseils</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="#">Galerie</a>
+              <ul>
+                <li><a href="#">Photos</a></li>
+                <li><a href="#">Vidéos</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Contact</a></li>
 
-        </ul>
+          </ul>
 
-      </nav>
+        </nav>
+      </div>
     </div>
-  </div>
   </nav>
 </div>
 
