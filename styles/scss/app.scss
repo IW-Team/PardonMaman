@@ -4331,7 +4331,9 @@ ul li a.btnTattoo:hover { background-color: #E53935; }
 .pad { margin-top: -150px; }
 #titleContact { font-family: 'Great Vibes', cursive; color:#000; font-size:45px; }
 
-
+.web-sidebar-menu .active a {
+  color: $red;
+}
 // Responsive
 
 @media only screen and (max-width: 1199px) {
