@@ -5198,8 +5198,9 @@ ul li a.btnTattoo:hover {
   height: 100px;
   resize: none;
 }
-/* line 4358, ../scss/app.scss */
-.formulaire-form .blockquote-reverse {
+
+/* line 4359, ../scss/app.scss */
+.blockquote-reverse {
   padding-top: 10px;
 }
 
