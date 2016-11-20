@@ -4322,7 +4322,7 @@ iframe {
 .purchase-now{
   background-color: #000;
 }
-#btnSnat{ margin-top:20px; }
+#btnSnat{ margin-top:15px; }
 ul li.active a.btnTattoo { background-color: #E53935; }
 ul li a.btnTattoo:hover { background-color: #E53935; }
 .clients-section .owl-pagination .owl-page.active span {
@@ -4360,7 +4360,16 @@ ul li a.btnTattoo:hover { background-color: #E53935; }
   color: $red;
 }
 
+#chankarTitle{
+  font-size:30px;
+  font-weight:bold;
+  margin-bottom: 20px;
+}
 
+#txtSnat{
+  font-size: 25px;
+  color:#FFF;
+}
 
 // Responsive
 
