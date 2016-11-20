@@ -6,7 +6,7 @@
 @import url("hover.css");
 @import url("global.css");
 @import url("pe-icon-7-stroke.css");
-/* line 5, C:/Program Files/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 5, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -28,45 +28,45 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 22, C:/Program Files/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1;
 }
 
-/* line 24, C:/Program Files/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 26, C:/Program Files/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 28, C:/Program Files/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 30, C:/Program Files/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 103, C:/Program Files/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 103, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 32, C:/Program Files/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 32, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 116, C:/Program Files/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 116, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block;
 }
@@ -5216,113 +5216,119 @@ ul li a.btnTattoo:hover {
   color: #FFF;
 }
 
+/* line 4374, ../scss/app.scss */
+.GreatVibeFont {
+  font-family: 'Great Vibes', cursive;
+  font-size: 30px;
+}
+
 @media screen and (max-width: 1199px) {
-  /* line 4377, ../scss/app.scss */
+  /* line 4382, ../scss/app.scss */
   .footer-section-top,
   .footer-section-bottom {
     background: #1a1a1a;
   }
 
-  /* line 4381, ../scss/app.scss */
+  /* line 4386, ../scss/app.scss */
   .cart-block .btn {
     width: 100%;
     margin-bottom: 10px;
   }
 }
 @media screen and (min-width: 991px) and (max-width: 1199px) {
-  /* line 4388, ../scss/app.scss */
+  /* line 4393, ../scss/app.scss */
   .navbar-brand {
     width: 180px;
   }
 
-  /* line 4389, ../scss/app.scss */
+  /* line 4394, ../scss/app.scss */
   .footer-section-mid .footer-mid .flickr-widget #flickr-gallery li {
     width: 65px;
   }
 
-  /* line 4392, ../scss/app.scss */
+  /* line 4397, ../scss/app.scss */
   .footer-section-top .social-footer li a {
     width: 28px;
   }
 
-  /* line 4395, ../scss/app.scss */
+  /* line 4400, ../scss/app.scss */
   .footer-section-bottom .we-accept li a {
     margin-right: 0;
   }
 
-  /* line 4398, ../scss/app.scss */
+  /* line 4403, ../scss/app.scss */
   .footer-section-bottom .we-accept li a i {
     font-size: 20px;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 991px) {
-  /* line 4404, ../scss/app.scss */
+  /* line 4409, ../scss/app.scss */
   .navbar-header {
     width: 100%;
   }
 
-  /* line 4407, ../scss/app.scss */
+  /* line 4412, ../scss/app.scss */
   .banner-section .titles .light,
   .banner-section .titles .bold {
     font-size: 60px;
   }
 
-  /* line 4411, ../scss/app.scss */
+  /* line 4416, ../scss/app.scss */
   #slide .item {
     min-height: 500px;
   }
 
-  /* line 4414, ../scss/app.scss */
+  /* line 4419, ../scss/app.scss */
   .slide-title {
     font-size: 16px;
     line-height: 24px;
   }
 
-  /* line 4418, ../scss/app.scss */
+  /* line 4423, ../scss/app.scss */
   .slide-sub-title {
     font-size: 28px;
     line-height: 36px;
   }
 
-  /* line 4422, ../scss/app.scss */
+  /* line 4427, ../scss/app.scss */
   .check-it .content .btn,
   .purchase-now .content .btn,
   .process .content .btn {
     margin: 30px 0;
   }
 
-  /* line 4427, ../scss/app.scss */
+  /* line 4432, ../scss/app.scss */
   .footer-section-top .newsletter-widget input[type="email"] {
     max-width: 150px;
   }
 
-  /* line 4430, ../scss/app.scss */
+  /* line 4435, ../scss/app.scss */
   .what-we-section .over-bg {
     background: #222222;
   }
 
-  /* line 4433, ../scss/app.scss */
+  /* line 4438, ../scss/app.scss */
   .about-list .item {
     margin-bottom: 30px;
   }
 
-  /* line 4436, ../scss/app.scss */
+  /* line 4441, ../scss/app.scss */
   .what-we-section .item ul li {
     display: block;
   }
 
-  /* line 4439, ../scss/app.scss */
+  /* line 4444, ../scss/app.scss */
   #blog-posts {
     float: left;
   }
 }
 @media screen and (max-width: 767px) {
-  /* line 4445, ../scss/app.scss */
+  /* line 4450, ../scss/app.scss */
   .navbar-header {
     width: 100%;
   }
 
-  /* line 4448, ../scss/app.scss */
+  /* line 4453, ../scss/app.scss */
   nav.main-navigation ul li ul.sub-menu {
     background: transparent;
     left: 0;
@@ -5337,21 +5343,21 @@ ul li a.btnTattoo:hover {
     transition: all 400ms ease 0s;
   }
 
-  /* line 4460, ../scss/app.scss */
+  /* line 4465, ../scss/app.scss */
   .affix nav.main-navigation ul li ul.sub-menu {
     top: 0;
     -webkit-transition: all 400ms ease 0s;
     transition: all 400ms ease 0s;
   }
 
-  /* line 4464, ../scss/app.scss */
+  /* line 4469, ../scss/app.scss */
   nav.main-navigation ul li ul.sub-menu li {
     display: block;
     margin: 0;
     padding: 0;
   }
 
-  /* line 4469, ../scss/app.scss */
+  /* line 4474, ../scss/app.scss */
   nav.main-navigation ul li ul.sub-menu li a {
     color: #333;
     font-size: 13px;
@@ -5359,17 +5365,17 @@ ul li a.btnTattoo:hover {
     padding: 5px 22px;
   }
 
-  /* line 4475, ../scss/app.scss */
+  /* line 4480, ../scss/app.scss */
   nav.main-navigation ul li ul.sub-menu li a:hover {
     color: #ccc;
   }
 
-  /* line 4478, ../scss/app.scss */
+  /* line 4483, ../scss/app.scss */
   nav.main-navigation ul li ul.sub-menu li:last-child {
     float: none;
   }
 
-  /* line 4481, ../scss/app.scss */
+  /* line 4486, ../scss/app.scss */
   nav.main-navigation ul li:hover ul.sub-menu {
     opacity: 1;
     -webkit-transform: translate3d(0px, 0px, 0px);
@@ -5377,141 +5383,141 @@ ul li a.btnTattoo:hover {
     visibility: visible;
   }
 
-  /* line 4486, ../scss/app.scss */
+  /* line 4491, ../scss/app.scss */
   nav.main-navigation ul a i {
     margin-left: 7px;
   }
 
-  /* line 4489, ../scss/app.scss */
+  /* line 4494, ../scss/app.scss */
   .banner-section .dest-detail {
     padding: 70px 0;
   }
 
-  /* line 4492, ../scss/app.scss */
+  /* line 4497, ../scss/app.scss */
   .banner-section .titles .light,
   .banner-section .titles .bold {
     font-size: 40px;
     line-height: 40px;
   }
 
-  /* line 4497, ../scss/app.scss */
+  /* line 4502, ../scss/app.scss */
   .banner-section h2 {
     font-size: 18px;
     line-height: 22px;
   }
 
-  /* line 4501, ../scss/app.scss */
+  /* line 4506, ../scss/app.scss */
   #slide .item, .page-slider .item {
     background-position: 50% 50%;
     min-height: 450px;
   }
 
-  /* line 4505, ../scss/app.scss */
+  /* line 4510, ../scss/app.scss */
   #slide .slider-content {
     width: 90%;
   }
 
-  /* line 4508, ../scss/app.scss */
+  /* line 4513, ../scss/app.scss */
   #slide .slider-content.text-left {
     left: 5%;
   }
 
-  /* line 4511, ../scss/app.scss */
+  /* line 4516, ../scss/app.scss */
   #slide .slider-content.text-right {
     right: 5%;
   }
 
-  /* line 4514, ../scss/app.scss */
+  /* line 4519, ../scss/app.scss */
   .slide-title {
     font-size: 16px;
     line-height: 24px;
   }
 
-  /* line 4518, ../scss/app.scss */
+  /* line 4523, ../scss/app.scss */
   .slide-sub-title {
     font-size: 26px;
     line-height: 30px;
   }
 
-  /* line 4522, ../scss/app.scss */
+  /* line 4527, ../scss/app.scss */
   .banner-section .item {
     padding: 15px 0;
   }
 
-  /* line 4525, ../scss/app.scss */
+  /* line 4530, ../scss/app.scss */
   .process .content .h2 {
     font-size: 25px;
   }
 
-  /* line 4528, ../scss/app.scss */
+  /* line 4533, ../scss/app.scss */
   .featured-item-listing .item-info ul {
     margin: 0;
   }
 
-  /* line 4531, ../scss/app.scss */
+  /* line 4536, ../scss/app.scss */
   .check-it .content .text-right,
   .purchase-now .content .text-right,
   .process .content .text-right {
     text-align: left !important;
   }
 
-  /* line 4536, ../scss/app.scss */
+  /* line 4541, ../scss/app.scss */
   .check-it .content h2,
   .purchase-now .content h2,
   .process .content h2 {
     padding-bottom: 20px;
   }
 
-  /* line 4541, ../scss/app.scss */
+  /* line 4546, ../scss/app.scss */
   .footer-section-top .social-footer,
   .footer-section-bottom .we-accept {
     padding: 20px 0;
     float: left;
   }
 
-  /* line 4546, ../scss/app.scss */
+  /* line 4551, ../scss/app.scss */
   .footer-section-top h3,
   .footer-section-bottom h3 {
     width: 100%;
     margin: 10px 0;
   }
 
-  /* line 4551, ../scss/app.scss */
+  /* line 4556, ../scss/app.scss */
   .footer-section-top .newsletter-widget input[type="email"] {
     margin-bottom: 20px;
   }
 
-  /* line 4554, ../scss/app.scss */
+  /* line 4559, ../scss/app.scss */
   .grid-three .themes-item {
     width: 50%;
   }
 
-  /* line 4557, ../scss/app.scss */
+  /* line 4562, ../scss/app.scss */
   .what-we-section .over-bg {
     background: #222222;
   }
 }
 @media screen and (max-width: 700px) {
-  /* line 4565, ../scss/app.scss */
+  /* line 4570, ../scss/app.scss */
   ._container-2 ._box {
     text-align: center;
     width: 100%;
   }
-  /* line 4568, ../scss/app.scss */
+  /* line 4573, ../scss/app.scss */
   ._container-2 ._box._w-40 {
     width: 100%;
   }
-  /* line 4569, ../scss/app.scss */
+  /* line 4574, ../scss/app.scss */
   ._container-2 ._box._w-60 {
     width: 100%;
   }
-  /* line 4570, ../scss/app.scss */
+  /* line 4575, ../scss/app.scss */
   ._container-2 ._box._700-order-1 {
     -webkit-box-ordinal-group: 2;
         -ms-flex-order: 1;
             order: 1;
   }
-  /* line 4573, ../scss/app.scss */
+  /* line 4578, ../scss/app.scss */
   ._container-2 ._box._700-order-2 {
     -webkit-box-ordinal-group: 3;
         -ms-flex-order: 2;
@@ -5519,43 +5525,43 @@ ul li a.btnTattoo:hover {
     margin: 15px 0 0 0;
   }
 
-  /* line 4579, ../scss/app.scss */
+  /* line 4584, ../scss/app.scss */
   .contact-detail2 {
     display: none;
   }
 
-  /* line 4581, ../scss/app.scss */
+  /* line 4586, ../scss/app.scss */
   .formulaire-form label, .formulaire-form input[type='text'], .formulaire-form textarea {
     margin-left: auto;
     margin-right: auto;
   }
 
-  /* line 4587, ../scss/app.scss */
+  /* line 4592, ../scss/app.scss */
   .contact ._700-order-1 {
     border-right: 0;
   }
-  /* line 4590, ../scss/app.scss */
+  /* line 4595, ../scss/app.scss */
   .contact ._700-order-2 {
     border-top: 1px solid #A9A9A9;
     padding-top: 15px;
   }
 }
 @media screen and (max-width: 360px) {
-  /* line 4598, ../scss/app.scss */
+  /* line 4603, ../scss/app.scss */
   .navbar-header {
     margin: 0;
   }
 
-  /* line 4599, ../scss/app.scss */
+  /* line 4604, ../scss/app.scss */
   .navbar-brand {
     width: 200px;
   }
-  /* line 4601, ../scss/app.scss */
+  /* line 4606, ../scss/app.scss */
   .navbar-brand img {
     width: 100%;
   }
 
-  /* line 4605, ../scss/app.scss */
+  /* line 4610, ../scss/app.scss */
   .header-right-toggle a {
     padding: 8px 10px;
     font-size: 18px;
