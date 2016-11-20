@@ -4132,7 +4132,7 @@ span.credits {
 .footer-section-bottom .copyright {
   color: #a2a2a2;
   line-height: 24px;
-  margin: 10px 0;
+  margin: 10px auto;
   text-align: center;
 }
 
@@ -4370,6 +4370,11 @@ ul li a.btnTattoo:hover { background-color: #E53935; }
   font-size: 25px;
   color:#FFF;
 }
+
+.second-title {
+  font-weight: bolder;
+}
+
 
 // Responsive
 
